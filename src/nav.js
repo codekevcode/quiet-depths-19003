@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import './css/font-awesome-4.7.0/css/font-awesome.min.css';
+import './img/comingSoon.png';
 
 export class Nav extends React.Component {
 	render() {
@@ -9,7 +10,8 @@ export class Nav extends React.Component {
         <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon" />
         </button>
-        <a className="navbar-brand" href="#">Botname</a>
+
+        <a className="navbar-brand" href="#"><img className="img-fluid" src={require('./img/comingSoon.png')} />Botname</a>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mx-auto">
             <li className="nav-item active">
@@ -32,7 +34,7 @@ export class Nav extends React.Component {
 					<li className="nav-item">
 						<a className="nav-link" href="#"><span>
 
-        <i className="fa fa-btc fa-lg" />
+        <i className="fa fa-twitter fa-lg" />
       </span></a>
 					</li>
 					<li className="nav-item">
