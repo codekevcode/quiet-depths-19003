@@ -11,7 +11,7 @@ export class Nav extends React.Component {
           <span className="navbar-toggler-icon" />
         </button>
 
-        <a className="navbar-brand" href="#"><img className="img-fluid" src={require('./img/comingSoon.png')} />Botname</a>
+        <a className="navbar-brand" href="#"><img className="img-fluid" src={require('./img/comingSoon.png')} /></a>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mx-auto">
             <li className="nav-item active">
@@ -23,6 +23,15 @@ export class Nav extends React.Component {
             <li className="nav-item">
               <a className="nav-link" href="#">FAQ</a>
             </li>
+						<li className="nav-item dropdown">
+        <a className="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div className="dropdown-menu">
+          <a className="dropdown-item" id="dropdown1-tab" href="#dropdown1" role="tab" data-toggle="tab" aria-controls="dropdown1">About Us</a>
+          <a className="dropdown-item" id="dropdown2-tab" href="#dropdown2" role="tab" data-toggle="tab" aria-controls="dropdown2">Team Stuff</a>
+        </div>
+      </li>
           </ul>
           <ul className="nav item my-2 my-lg-0">
 					<li className="nav-item">

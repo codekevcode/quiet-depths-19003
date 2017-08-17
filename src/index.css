@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  font-family: 'Acme', sans-serif;
 }
 /*!
  * Bootstrap v4.0.0-alpha.6 (https://getbootstrap.com)
@@ -3144,7 +3145,9 @@ tbody.collapse.show {
   -o-transition: height 0.35s ease;
   transition: height 0.35s ease;
 }
-
+.dropdown:hover .dropdown-menu {
+display: block;
+}
 .dropup,
 .dropdown {
   position: relative;
@@ -3161,7 +3164,17 @@ tbody.collapse.show {
   border-right: 0.3em solid transparent;
   border-left: 0.3em solid transparent;
 }
-
+.dropdown-toggle::after {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 0.3em;
+  vertical-align: middle;
+  content: "";
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-left: 0.3em solid transparent;
+}
 .dropdown-toggle:focus {
   outline: 0;
 }
@@ -3836,6 +3849,7 @@ tbody.collapse.show {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  font-family: 'Acme', sans-serif;
 }
 
 .nav-link {
@@ -4959,7 +4973,7 @@ a.badge:focus, a.badge:hover {
   padding-right: 0;
   padding-left: 0;
   border-radius: 0;
-  height: 400px
+  height: 550px
 }
 
 .alert {
