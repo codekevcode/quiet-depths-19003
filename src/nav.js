@@ -11,7 +11,7 @@ export class Nav extends React.Component {
           <span className="navbar-toggler-icon" />
         </button>
 
-        <a className="navbar-brand" href="#"><img className="img-fluid" src={require('./img/comingSoon.png')} /></a>
+        <a className="navbar-brand " href="#"><img className="img-fluid" src={require('./img/comingSoon.png')} /></a>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mx-auto">
             <li className="nav-item active">
