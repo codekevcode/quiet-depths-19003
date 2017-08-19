@@ -12,9 +12,11 @@ body {
  */
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 .midsection {
-  height: 100;
+  position: static;
+  height: 100px;
   background-color: blue;
-  padding: 500;
+  color: white;
+  padding: 50px;
   margin-top: 0;
   outline-color: red;
   overflow: visible;
@@ -4954,7 +4956,7 @@ a.badge:focus, a.badge:hover {
 
 .jumbotron {
   padding: 0rem 0rem;
-  margin-bottom: 2rem;
+  margin-bottom: 0rem;
   background-color: #eceeef;
   border-radius: 0.3rem;
 }

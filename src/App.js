@@ -8,8 +8,10 @@ class App extends Component {
     return (
       <div className ="jumbotron jumbotron-fluid align-baseline" style={{backgroundImage:'url(bgimg.jpg)'}}>
        <div className ="container typewriter">
-         <h1> Build To Learn Bot </h1>
+         <h1 className="pull-left"> Build To Learn Bot </h1>
+         <hr/>
          <p className= "app-intro">Changing Background Text</p>
+         <hr/>
          <p><a className="btn btn-primary" href="http://www.google.com" target="_blank"> Discovery things</a></p>
        </div>
 
