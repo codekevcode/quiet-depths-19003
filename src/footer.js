@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import './css/font-awesome-4.7.0/css/font-awesome.min.css';
 
-
+// fix all the css classes
 export class Footer extends React.Component {
 	render() {
     return(
