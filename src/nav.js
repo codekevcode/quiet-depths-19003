@@ -25,17 +25,17 @@ export class Nav extends React.Component {
             </li>
           </ul>
           <ul className="nav item my-2 my-lg-0">
-					<li className="nav-item">
-						<a className="nav-link" href="#"><span>
+						<li className="nav-item">
+							<a className="nav-link" href="#"><span>
 
-        <i className="fa fa-linkedin-square fa-lg" />
-      </span></a>
-					</li>
-					<li className="nav-item">
-						<a className="nav-link" href="#"><span>
+								<i className="fa fa-linkedin-square fa-lg" />
+							</span></a>
+						</li>
+						<li className="nav-item">
+							<a className="nav-link" href="#"><span>
 
-        <i className="fa fa-twitter fa-lg" />
-      </span></a>
+								<i className="fa fa-twitter fa-lg" />
+							</span></a>
 					</li>
 					<li className="nav-item">
 						<a className="nav-link" href="#"><span>
