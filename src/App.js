@@ -1,22 +1,24 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
 import './App.css';
+import Feature from './feature';
+import { AttentionGrabber } from './fold';
+import { Nav } from './nav';
+import { Footer } from './footer';
+import {Jumbotron} from './jumbotron'
+import registerServiceWorker from './registerServiceWorker';
 
-
-
-class App extends Component {
+export class App extends React.Component{
   render() {
     return (
-      <div className ="jumbotron jumbotron-fluid align-baseline" style={{backgroundImage:'url(bgimg.jpg)'}}>
-       <div className ="container typewriter">
-         <h1 className="pull-left"> Build To Learn Bot </h1>
-         <hr/>
-         <p className= "app-intro">Changing Background Text</p>
-         <hr/>
-         <p><a className="btn btn-primary" href="http://www.google.com" target="_blank"> Discovery things</a></p>
-       </div>
-
-     </div>
+      <div>
+      <Nav />
+      <Jumbotron />
+      <AttentionGrabber />
+      <Feature />
+      <Footer />
+      </div>
     );
   }
 }
