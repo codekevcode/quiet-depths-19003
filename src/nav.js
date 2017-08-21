@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import './css/font-awesome-4.7.0/css/font-awesome.min.css';
 import './img/comingSoon.png';
+import owl from './img/owl.svg';
 
 export class Nav extends React.Component {
 	render() {
@@ -11,7 +12,7 @@ export class Nav extends React.Component {
           <span className="navbar-toggler-icon" />
         </button>
 
-        <a className="navbar-brand " href="#"><img className="img-fluid" src={require('./img/comingSoon.png')} /></a>
+        <a className="navbar-brand " href="#"><img className="img-fluid" /><img src={owl} className="App-logo" alt="logo" /></a>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mx-auto">
             <li className="nav-item active">
