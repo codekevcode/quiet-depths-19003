@@ -1,5 +1,6 @@
   .App {
   text-align: center;
+  font-family: 'Acme', sans-serif;
 }
 
 .animated-text {
@@ -29,6 +30,7 @@
 display: block;
 }
 .typewriter{
+  color:#f0f0a8;
   box-sizing: border-box;
   width: 45%;
 
@@ -47,7 +49,7 @@ display: block;
 /* The typing effect */
 @keyframes typing {
   from { width: 0 }
-  to { width: 75% }
+  to { width: 35% }
 }
 
 /* The typewriter cursor effect */
@@ -56,25 +58,32 @@ display: block;
   50% { border-color: white; }
 }
 
-.btn-primary {
+.sb {
   color: #fff;
-  background-color: black;
-  border-color: black;
+  background-color: #484860;
+  border-color: #484860;
   position: absolute;
   top: -30%;
   transform: translateY(-70%);
   transform: translateX(-10%);
+box-shadow: 10px 10px 5px grey;
 }
+.btn-primary:hover {
+    color: #484860;
+    background-color: #f06048;
+    border-color: #f06048;
+  }
 
 .midsection {
   position: static;
   height: 100px;
-  background-color: #d4d7fd;
-  color: blue;
+  background-color: #f0f0a8;
+  color: #f06048;
   padding: 50px;
   margin-top: 0;
   outline-color: red;
   overflow: visible;
+  font-family: 'Acme', sans-serif;
 }
 
 .jumbotron {
@@ -82,10 +91,16 @@ display: block;
   margin-bottom: -2rem;
   background-color: #eceeef;
   border-radius: 0.3rem;
+  font-family: 'Acme', sans-serif;
+
 }
 .jumbotron-fluid {
   padding-right: 0;
   padding-left: 0;
   border-radius: 0;
   height: 510px
+}
+.navbar {
+background-color: #d8c0a8;
+
 }

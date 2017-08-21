@@ -7,7 +7,7 @@ export class SurveyButton extends React.Component {
 		return (
 
           <div className="col-4 ">
-            <p><a className="btn btn-primary btn-lg btn-block" href="http://www.google.com" target="_blank"> Take Survey</a></p>
+            <p><a className="btn sb btn-primary btn-lg btn-block" href="http://www.google.com" target="_blank"> Take Survey</a></p>
           </div>
     );
 	}
