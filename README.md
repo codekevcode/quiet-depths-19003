@@ -1,4 +1,33 @@
 Find this app @ https://quiet-depths-19003.herokuapp.com
+______________________________________
+
+
+CodeKevCode-Enlargen main background image length (include random text overlay that changes over time)
+
+CodeKevCode-Put in Header bar with... Name of bot “BotName”, About, Blog, FAQ, then contact items with Font Awesome Icons (linkedin, facebook, twitter, insta)
+
+-Survey Bar “We are doing a survey on the usage of our bot and we want to know what you think”, “Answer our Survey” button
+
+-“About Us” Paragraph - BotName(bolded) then kitty ipsum with “About us” button
+
+-Info graphic/picture
+
+-Core Competencies
+
+-From the workbench(blog description) - “In our blog, kitty ipsum dolum”
+
+-Blog buttons with display of blog post and a “More from our blog” button
+
+-Sign up to our Newsletter section with button and fill in field
+
+-Our partners? (necessary section)
+
+-Have a link to github development
+
+@platymatt -Footer with stuff
+
+
+___________________________________________________________
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
