@@ -13,11 +13,11 @@ export class App extends React.Component{
   render() {
     return (
       <div>
-      <Nav />
-      <Jumbotron />
-      <SurveyBanner />
-      <Feature />
-      <Footer />
+        <Nav />
+        <Jumbotron />
+        <SurveyBanner />
+        <Feature />
+        <Footer />
       </div>
     );
   }
