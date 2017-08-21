@@ -9,8 +9,8 @@ export class SurveyBanner extends React.Component {
 		return (
 			<div className="container-fluid midsection">
         <div className="row">
-          <div className="col-8">
-        <h2>  Take a Quick Survey, Built By Owl Team 23 </h2>
+          <div className="col-8 align-baseline">
+        <h3>  We are doing a survey about the usage of our bot and we want to know what you think </h3>
           </div>
           <SurveyButton />
         </div>

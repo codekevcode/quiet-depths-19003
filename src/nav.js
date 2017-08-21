@@ -38,25 +38,25 @@ export class Nav extends React.Component {
 						<li className="nav-item">
 							<a className="nav-link" href="#"><span>
 
-								<i className="fa fa-linkedin-square fa-lg" />
+								<i className="fa fa-linkedin-square fa-2x" />
 							</span></a>
 						</li>
 						<li className="nav-item">
 							<a className="nav-link" href="#"><span>
 
-								<i className="fa fa-twitter fa-lg" />
+								<i className="fa fa-twitter fa-2x" />
 							</span></a>
 					</li>
 					<li className="nav-item">
 						<a className="nav-link" href="#"><span>
 
-        <i className="fa fa-instagram fa-lg" />
+        <i className="fa fa-instagram fa-2x" />
       </span></a>
 					</li>
 					<li className="nav-item">
 						<a className="nav-link" href="#"><span>
 
-        <i className="fa fa-facebook-square fa-lg" />
+        <i className="fa fa-facebook-square fa-2x" />
       </span></a>
 					</li>
           </ul>

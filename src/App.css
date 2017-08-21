@@ -65,8 +65,8 @@ display: block;
   position: absolute;
   top: -30%;
   transform: translateY(-70%);
-  transform: translateX(-10%);
-box-shadow: 10px 10px 5px grey;
+  transform: translateX(-5%);
+box-shadow: 9px 9px 4px grey;
 }
 .btn-primary:hover {
     color: #484860;
@@ -76,10 +76,10 @@ box-shadow: 10px 10px 5px grey;
 
 .midsection {
   position: static;
-  height: 100px;
+  height: 120px;
   background-color: #f0f0a8;
   color: #f06048;
-  padding: 50px;
+  padding: 30px;
   margin-top: 0;
   outline-color: red;
   overflow: visible;
