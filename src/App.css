@@ -31,7 +31,7 @@ display: block;
 .typewriter{
   box-sizing: border-box;
   width: 45%;
-  
+
 }
 .typewriter h1 {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
@@ -54,4 +54,38 @@ display: block;
 @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: white; }
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: black;
+  border-color: black;
+  position: absolute;
+  top: -30%;
+  transform: translateY(-70%);
+  transform: translateX(-10%);
+}
+
+.midsection {
+  position: static;
+  height: 100px;
+  background-color: #d4d7fd;
+  color: blue;
+  padding: 50px;
+  margin-top: 0;
+  outline-color: red;
+  overflow: visible;
+}
+
+.jumbotron {
+  padding: 2rem 1rem;
+  margin-bottom: -2rem;
+  background-color: #eceeef;
+  border-radius: 0.3rem;
+}
+.jumbotron-fluid {
+  padding-right: 0;
+  padding-left: 0;
+  border-radius: 0;
+  height: 510px
 }

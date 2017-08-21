@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './index.css';
+import './bootstrap.css'
 import './App.css';
 import Feature from './feature';
 import { SurveyBanner } from './SurveyBanner';

@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.css';
+import { SurveyButton } from './SurveyButton';
+
 
 
 export class SurveyBanner extends React.Component {
@@ -10,9 +12,7 @@ export class SurveyBanner extends React.Component {
           <div className="col-8">
         <h3>  Take a Quick Survey, Built By US </h3>
           </div>
-          <div className="col-4 pull-right">
-            <p><a className="btn btn-primary" href="http://www.google.com" target="_blank"> Discover things</a></p>
-          </div>
+          <SurveyButton />
         </div>
       </div>
     );
