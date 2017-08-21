@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 
 
-export class AttentionGrabber extends React.Component {
+export class SurveyBanner extends React.Component {
 	render() {
 		return (
 			<div className="container-fluid midsection">
@@ -18,4 +18,4 @@ export class AttentionGrabber extends React.Component {
     );
 	}
 }
-export default AttentionGrabber;
+export default SurveyBanner	;

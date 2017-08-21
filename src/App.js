@@ -1,13 +1,13 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+
 import './index.css';
 import './App.css';
 import Feature from './feature';
-import { AttentionGrabber } from './fold';
+import { SurveyBanner } from './SurveyBanner';
 import { Nav } from './nav';
 import { Footer } from './footer';
 import {Jumbotron} from './jumbotron'
-import registerServiceWorker from './registerServiceWorker';
+
 
 export class App extends React.Component{
   render() {
@@ -15,7 +15,7 @@ export class App extends React.Component{
       <div>
       <Nav />
       <Jumbotron />
-      <AttentionGrabber />
+      <SurveyBanner />
       <Feature />
       <Footer />
       </div>

@@ -14,7 +14,7 @@ body {
 .midsection {
   position: static;
   height: 100px;
-  background-color: blue;
+  background-color: #d4d7fd;
   color: white;
   padding: 50px;
   margin-top: 0;
@@ -4975,7 +4975,7 @@ a.badge:focus, a.badge:hover {
   padding-right: 0;
   padding-left: 0;
   border-radius: 0;
-  height: 550px
+  height: 510px
 }
 
 .alert {
