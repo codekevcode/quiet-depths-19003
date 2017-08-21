@@ -1,20 +1,24 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import React from 'react';
+
+import './bootstrap.css'
 import './App.css';
+import Feature from './feature';
+import { SurveyBanner } from './SurveyBanner';
+import { Nav } from './nav';
+import { Footer } from './footer';
+import {Jumbotron} from './jumbotron'
 
 
-
-class App extends Component {
+export class App extends React.Component{
   render() {
     return (
-      <div className ="jumbotron jumbotron-fluid align-baseline" style={{backgroundImage:'url(bgimg.jpg)'}}>
-       <div className ="container">
-         <h1> Chingu Owls team 23 React Splash Page </h1>
-         <p> with Bootstrap and SASS </p>
-         <p><a className="btn btn-primary" href="http://www.google.com" target="_blank"> Discovery things</a></p>
-       </div>
-
-     </div>
+      <div>
+        <Nav />
+        <Jumbotron />
+        <SurveyBanner />
+        <Feature />
+        <Footer />
+      </div>
     );
   }
 }
