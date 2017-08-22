@@ -86,7 +86,7 @@ export class Footer extends React.Component {
                   </p>
                 </div> {/* /.col-lg-2 col-sx-6 */}
                 <div className="col-lg-4 col-xs-12">
-                  <p className="footer__paragraph footer_paragraph-bold">
+                  <p className="footer__paragraph footer__paragraph-bold">
                     <strong>OUR LOCATION</strong>
                   </p>
                   <p className="footer__paragraph footer__paragraph-description">
