@@ -1,5 +1,4 @@
 import React from 'react';
-
 import './bootstrap.css'
 import './App.css';
 import Feature from './feature';
