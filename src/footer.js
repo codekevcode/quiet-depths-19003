@@ -8,7 +8,7 @@ export class Footer extends React.Component {
     return(
       <footer>
         <div className="container">
-          <div className="row footer_row">
+          <div className="row footer_row " id= "target1">
             <div className="col-lg-6 col-xs-8 col-xs-12 footer__row-description">
               <p className="footer__paragraph footer__paragraph-bold">
                 <strong>BOTNAME IS A NEW KIND OF BOT</strong>

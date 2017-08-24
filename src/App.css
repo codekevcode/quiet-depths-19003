@@ -125,12 +125,14 @@ background-color: #d8c0a8;
     padding-left: 15px;
 }
 
-.footer {
+footer * {
   color: #b1b1b1;;
   background:#4F5453;
   font-family: "Montserrat";
   font-size: 14px;
   display: block;
+  border: 1px solid black;
+  outline-color: red;
 }
 
 .footer__row {
