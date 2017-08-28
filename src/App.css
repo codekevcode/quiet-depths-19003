@@ -74,16 +74,17 @@ box-shadow: 9px 9px 4px grey;
     border-color: #f06048;
   }
 
-.midsection {
+.midsection{
   position: static;
-  height: 120px;
+  height: 90px;
   background-color: #f0f0a8;
   color: #f06048;
   padding: 30px;
   margin-top: 0;
-  outline-color: red;
   overflow: visible;
   font-family: 'Acme', sans-serif;
+  font-size: 21px;
+  
 }
 
 .jumbotron {
@@ -130,9 +131,7 @@ footer * {
   background:#4F5453;
   font-family: "Montserrat";
   font-size: 14px;
-  display: block;
-  border: 1px solid black;
-  outline-color: red;
+
 }
 
 .footer__row {
@@ -192,3 +191,16 @@ footer * {
   margin: 0 0;
 }
 /*End of northern11 addtion */
+
+
+.aboutUsSection {
+background-color: #484860;
+height: 450px;
+color: white;
+}
+.aboutUsParaph {
+  padding: 100px;
+  margin: 50px;
+  height: 50px;
+
+}

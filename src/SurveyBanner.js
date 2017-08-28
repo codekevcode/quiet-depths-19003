@@ -4,7 +4,16 @@ import './App.css';
 
 
 class SButton extends React.Component {
+	constructor(props) {
+	  super(props);
+	  this.state = {target: 'Answer Our Survey'};
+		this.takeSurvey = this.takeSurvey.bind(this);
+	}
 
+	takeSurvey() {
+									this.setState({target: 'Take Other QUIZES'});
+
+								} // End takeSurvey
 
 	render() {
 
@@ -12,18 +21,14 @@ class SButton extends React.Component {
 		return (
 
           <div className="col-4 ">
-            <p><a className="btn sb btn-primary btn-lg btn-block"  href="#target1" > Take Survey</a></p>
+            <p><a className="btn sb btn-primary btn-lg 	pull-right" onClick = {this.takeSurvey}   >{this.state.target}</a></p>
           </div>
     );
 	}
 }
 
 export class SurveyBanner extends React.Component {
-	handleClick() {
-		 alert(`I am an event handler.
-			 If you see this message,
-			 then I have been called.`);
-	 }
+
 
 
 
@@ -35,9 +40,9 @@ export class SurveyBanner extends React.Component {
 			<div className="container-fluid midsection">
         <div className="row">
           <div className="col-8 align-baseline">
-        <h3>  We are doing a survey about the usage of our bot and we want to know what you think </h3>
+        <p>We are doing a survey about the usage of our bot and we want to know what you think</p>
           </div>
-          <SButton onClick = {this.handleClick} />
+          <SButton  />
         </div>
       </div>
     );
