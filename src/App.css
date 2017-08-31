@@ -204,3 +204,8 @@ color: white;
   height: 50px;
 
 }
+
+#formWrapper {
+  padding: 10px;
+  margin: 10px;
+}

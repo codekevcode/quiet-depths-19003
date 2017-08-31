@@ -36,6 +36,27 @@ export class Feature extends React.Component {
 					<img className="featurette-image img-fluid mx-auto" src={'http://lorempixel.com/output/nightlife-q-c-480-480-4.jpg'} alt="Generic placeholder image" />
 				</div>
 			</div>
+						<div id="formWrapper" className="col-md-5">
+							<h2> Sign up for our weekly newsletter! </h2>
+							<form action="/subscribe-page" method="POST">
+								<div className="col-md-5">
+									<label htmlFor="name">Name:</label>
+									<input type="text" id="name" name="user_name" />
+								</div>
+								<div className="col-md-5">
+									<label htmlFor="mail">E-mail:</label>
+									<input type="email" id="mail" name="user_mail" />
+								</div>
+								<div className="col-md-5"> 
+									<label htmlFor="msg">Message:</label>
+									<textarea id="msg" name="user_message" defaultValue={""} />
+								</div>
+							</form>
+							<div className="col-md-5">
+							<a href="mailto: #"> <button>send</button> </a>
+							</div>
+						</div>
+						
 			<hr className="featurette-divider" />
 		</div>
     );
