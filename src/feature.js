@@ -2,6 +2,15 @@ import React from 'react';
 import './App.css';
 
 
+var mailCheckVar = document.getElementById("mailId");
+ if (mailCheckVar.value.indexOf('@') == -1){
+	 var para = document.createElement('p');
+	 var text = document.createTextNode("Please add a valid Email");
+	 para.appendChild(text);
+	//issue 1
+ }
+
+
 export class Feature extends React.Component {
 	render() {
 		return (
@@ -45,7 +54,7 @@ export class Feature extends React.Component {
 								</div>
 								<div className="col-md-5">
 									<label htmlFor="mail">E-mail:</label>
-									<input type="email" id="mail" name="user_mail" />
+									<input id="mailId" type="email" id="mail" name="user_mail" />
 								</div>
 								<div className="col-md-5"> 
 									<label htmlFor="msg">Message:</label>
