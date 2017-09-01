@@ -1,23 +1,7 @@
 import React from 'react';
 import './App.css';
 
-var mailCheckVar = document.getElementById("mailId");
-if (mailCheckVar.value.indexOf('@') == -1){
-	var para = document.createElement('p');
-	var text = document.createTextNode("Please add a valid Email");
-	para.appendChild(text);
-   //ishoeue 1
-}
 
-
-
-var mailCheckVar = document.getElementById("mailId");
- if (mailCheckVar.value.indexOf('@') == -1){
-	 var para = document.createElement('p');
-	 var text = document.createTextNode("Please add a valid Email");
-	 para.appendChild(text);
-	//issue 1
- }
 
 
 export class Feature extends React.Component {
