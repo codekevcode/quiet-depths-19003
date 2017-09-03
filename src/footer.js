@@ -97,6 +97,10 @@ export class Footer extends React.Component {
             </div> {/* /.footer___row row-flat */}
             </div> {/* /.row footer__row */}
         </div> {/* /.container */}
+        <div class="githubLink"> 
+          <p> See something you'd like to change or add? Do it here at our <a href="https://github.com/codekevcode/quiet-depths-19003" > <span style={{textDecoration: 'underline'}}> github repository. </span> </a>
+          </p>
+          </div>  
       </footer>
     )}
 } export default Footer
