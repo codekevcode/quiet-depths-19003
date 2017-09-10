@@ -1,5 +1,6 @@
 
 import React from 'react';
+import owlbot0 from './img/owlbot0.jpg'
 
 
 
@@ -21,7 +22,7 @@ class WButton extends React.Component {
 		return (
 
           <div className="col-4 ">
-            <p><a className="btn sb btn-primary 	pull-right" onClick = {this.ViewBlog}   >{this.state.target}</a></p>
+            <p><a className="btn sb btn-outline-primary	pull-right" onClick = {this.ViewBlog}   >{this.state.target}</a></p>
           </div>
     );
 	}
@@ -60,7 +61,7 @@ export class WorkBench extends React.Component {
 
             </div>
               <div className="card">
-                <img src= {"http://lorempixel.com/output/nightlife-q-c-480-480-4.jpg"}  alt="Card image cap" />
+                  <img className="img-fluid" src={owlbot0}  alt="logo" />
 
               </div>
               <div className="card">

@@ -15,7 +15,7 @@ export class Partners extends React.Component {
 		return (
       <div className="container">
       <div className="row">
-          <h2> Our partners </h2>
+          <h2> Our Stack </h2>
       </div>
       <div className="row">
         <div className="col">
@@ -45,7 +45,7 @@ export class Partners extends React.Component {
 
     Reach out! We’re always looking for new collaborations and partnerships.
           </div>
-      
+
         </div>
     );
 	}
