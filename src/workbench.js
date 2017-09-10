@@ -21,7 +21,7 @@ class WButton extends React.Component {
 		return (
 
           <div className="col-4 ">
-            <p><a className="btn sb btn-primary 	pull-right" onClick = {this.ViewBlog}   >{this.state.target}</a></p>
+            <p><a className="btn sb btn-outline-primary	pull-right" onClick = {this.ViewBlog}   >{this.state.target}</a></p>
           </div>
     );
 	}

@@ -23,7 +23,25 @@ body {
   padding: 20px;
   color: white;
 }
-
+.btn {
+    display: inline-block;
+    font-weight: normal;
+    line-height: 3.25;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
 .App-intro {
   font-size: large;
 }
@@ -69,7 +87,6 @@ display: block;
 
 .sb {
   color: white;
-  text
   background-color: #484860;
   border-color: #484860;
   position: absolute;
@@ -207,7 +224,7 @@ footer * {
 
 
 .aboutUsSection {
-background-color: #484860;
+background-color: #909090;
 height: 450px;
 color: white;
 }
@@ -228,11 +245,64 @@ color: white;
   fill: blue;
 }
 .album h1, a {
-  color:#484860;
+  color: #f06048;
+  padding: 0px;
 
+}
+.feature {
+    background-color: #f06048;
+    text-align: center;
+    justify-content: center;
+    color: black;
+    font-size: 0rem;
+    padding: 15px;
+    padding-left: 150px;
+    font-weight: normal;
+}
+.feature-title * {
+    background-color: #f06048;
+    text-align: center;
+    justify-content: center;
+    color: black;
+    font-weight: normal;
+}
+.mytitle{
+  background-color:#f06048;
 }
 
 
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: -.5rem;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 1.5rem 4.75rem;
+    font-size: 1rem;
+    /* line-height: 1.25; */
+    color: #464a4c;
+    background-color: #fff;
+    /* background-image: none; */
+    /* background-clip: padding-box; */
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0.25rem;
+    -webkit-transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+    /* transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s; */
+    -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+}
+.feature h1{
+  text-align: center;
+}
+.aspace {
+
+}
+h1, .h1 {
+    font-size: 2.5rem;
+    text-align: center;
+}
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
