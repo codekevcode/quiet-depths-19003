@@ -223,6 +223,7 @@ color: white;
   margin: 10px;
 }
 
+<<<<<<< HEAD
 
 .owl {
   fill: blue;
@@ -391,4 +392,8 @@ iPad 3
 
 @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
 /* Styles */
+=======
+.githubLink {
+  text-decoration: underline;
+>>>>>>> 27e3208e1eb9423c7e89bf6ee76ed860fdb68161
 }

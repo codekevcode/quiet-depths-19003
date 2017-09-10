@@ -45,6 +45,7 @@ export class Partners extends React.Component {
 
     Reach out! We’re always looking for new collaborations and partnerships.
           </div>
+      
         </div>
     );
 	}
