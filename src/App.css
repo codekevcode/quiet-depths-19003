@@ -280,7 +280,13 @@ color: white;
     width: 200%;
 }
 
+footer {
+  color: white !important;
+}
 
+.needsmove {
+  align-items: flex-end;
+}
 
 
 }
