@@ -6,7 +6,7 @@ export class Feature extends React.Component {
 	render() {
 		return (
 			<div>
-			<hr className="featurette-divider" />
+			<hr className="featurette-divider " />
 			<div className="row featurette">
 				<div className="col-md-7">
 								<h2 className="featurette-heading">First featurette heading. <span className="text-muted">It will blow your mind.</span></h2>
@@ -47,7 +47,7 @@ export class Feature extends React.Component {
 									<label htmlFor="mail">E-mail:</label>
 									<input type="email" id="mail" name="user_mail" />
 								</div>
-								<div className="col-md-5"> 
+								<div className="col-md-5">
 									<label htmlFor="msg">Message:</label>
 									<textarea id="msg" name="user_message" defaultValue={""} />
 								</div>
@@ -56,7 +56,7 @@ export class Feature extends React.Component {
 							<a href="mailto: #"> <button>send</button> </a>
 							</div>
 						</div>
-						
+
 			<hr className="featurette-divider" />
 		</div>
     );

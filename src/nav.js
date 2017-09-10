@@ -7,7 +7,7 @@ import owl from './img/owl.svg';
 export class Nav extends React.Component {
 	render() {
 		return (
-			<nav className="navbar navbar-toggleable-md navbar-light bg-faded">
+			<nav className="navbar navbar-toggleable-md navbar-light bg-faded mx-auto">
         <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon" />
         </button>
@@ -38,25 +38,25 @@ export class Nav extends React.Component {
 						<li className="nav-item">
 							<a className="nav-link" href="#"><span>
 
-								<i className="fa fa-linkedin-square fa-2x" />
+								<i className="fa fa-linkedin-square fa-lg" />
 							</span></a>
 						</li>
 						<li className="nav-item">
 							<a className="nav-link" href="#"><span>
 
-								<i className="fa fa-twitter fa-2x" />
+								<i className="fa fa-twitter fa-lg" />
 							</span></a>
 					</li>
 					<li className="nav-item">
 						<a className="nav-link" href="#"><span>
 
-        <i className="fa fa-instagram fa-2x" />
+        <i className="fa fa-instagram fa-lg" />
       </span></a>
 					</li>
 					<li className="nav-item">
 						<a className="nav-link" href="#"><span>
 
-        <i className="fa fa-facebook-square fa-2x" />
+        <i className="fa fa-facebook-square fa-lg" />
       </span></a>
 					</li>
           </ul>

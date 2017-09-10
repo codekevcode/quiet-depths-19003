@@ -19,24 +19,24 @@ export class Partners extends React.Component {
       </div>
       <div className="row">
         <div className="col">
-          <img className="img-fluid" /><img src={npm} className="App-logo" alt="logo" />
+          <img className="img-fluid" src={npm}  alt="logo" />
         </div>
         <div className="col">
-          <img className="img-fluid" /><img src={webpack} className="App-logo" alt="logo" />
+          <img className="img-fluid" src={webpack}  alt="logo" />
         </div>
         <div className="col">
-          <img className="img-fluid" /><img src={ECMA6} className="App-logo" alt="logo" />
+          <img className="img-fluid" src={ECMA6}  alt="logo" />
         </div>
       </div>
           <div className="row">
             <div className="col">
-              <img className="img-fluid" /><img src={babel} className="App-logo" alt="logo" />
+              <img className="img-fluid" src={babel}  alt="logo" />
             </div>
             <div className="col">
-              <img className="img-fluid" /><img src={css} className="App-logo" alt="logo" />
+            <img className="img-fluid" src={css}  alt="logo" />
             </div>
             <div className="col">
-              <img className="img-fluid" /><img src={html5} className="App-logo" alt="logo" />
+              <img className="img-fluid" src={html5}  alt="logo" />
             </div>
           </div>
           <div className="row">

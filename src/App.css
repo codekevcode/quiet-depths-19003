@@ -1,6 +1,15 @@
+
+/*Purple #484860 */
+/*Orange #f06048 */
+/*Grey #909090 */
   .App {
   text-align: center;
   font-family: 'Acme', sans-serif;
+}
+body {
+  background-color: white;
+  font-family: 'Acme', sans-serif;
+  color: #484860;
 }
 
 .animated-text {
@@ -30,7 +39,7 @@
 display: block;
 }
 .typewriter{
-  color:#f0f0a8;
+  color:white;
   box-sizing: border-box;
   width: 45%;
 
@@ -59,7 +68,8 @@ display: block;
 }
 
 .sb {
-  color: #fff;
+  color: white;
+  text
   background-color: #484860;
   border-color: #484860;
   position: absolute;
@@ -67,6 +77,7 @@ display: block;
   transform: translateY(-70%);
   transform: translateX(-5%);
 box-shadow: 9px 9px 4px grey;
+
 }
 .btn-primary:hover {
     color: #484860;
@@ -76,9 +87,10 @@ box-shadow: 9px 9px 4px grey;
 
 .midsection{
   position: static;
+
   height: 90px;
-  background-color: #f0f0a8;
-  color: #f06048;
+  background-color: white;
+  color: #484860;
   padding: 30px;
   margin-top: 0;
   overflow: visible;
@@ -101,20 +113,21 @@ box-shadow: 9px 9px 4px grey;
   height: 510px
 }
 .navbar {
-background-color: #d8c0a8;
+background-color: white;
 padding: 0;
+font-size: 18px;
 
 }
 
 .fa {
 
-  color:#f06048;
+  color:#484860;
 }
 .navbar-light .navbar-nav .open > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.open, .navbar-light .navbar-nav .nav-link.active {
-  color: #f06048;
+  color: #484860;
 }
 .navbar-light .navbar-nav .nav-link {
-  color: #f06048
+  color: #484860;
 }
 /* northern11 added this for the footer */
 @media (max-width: 1024px) and (min-width: 320px)
@@ -208,4 +221,174 @@ color: white;
 #formWrapper {
   padding: 10px;
   margin: 10px;
+}
+
+
+.owl {
+  fill: blue;
+}
+.album h1, a {
+  color:#484860;
+
+}
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* Styles */
+.navbar-brand {
+    display: inline-block;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    padding-left: 200px;
+    white-space: nowrap;
+}
+.navbar-nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+}
+.my-2 {
+    margin-top: 0.5rem !important;
+    margin-bottom: 0.5rem !important;
+    justify-content: center;
+}
+.jumbotron-fluid {
+    padding-right: 0;
+    padding-left: 0;
+    border-radius: 0;
+    height: 510px;
+    background-position-x: center;
+}
+.aboutUsParaph {
+    height: 500px;
+    padding: 0px;
+}
+
+.btn-block {
+    display: block;
+    width: 200%;
+}
+
+
+
+
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+/* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+/* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+/* Styles */
+}
+/**********
+iPad 3
+**********/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+
+/* iPhone 5 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+/* iPhone 6 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+
+/* Styles */
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+/* iPhone 6+ ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+/* Samsung Galaxy S3 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+/* Samsung Galaxy S4 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+
+/* Samsung Galaxy S5 ----------- */
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
 }

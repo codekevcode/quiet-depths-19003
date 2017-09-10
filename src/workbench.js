@@ -1,7 +1,5 @@
 
 import React from 'react';
-import './App.css';
-
 
 
 
@@ -32,10 +30,10 @@ class WButton extends React.Component {
 export class WorkBench extends React.Component {
 	render() {
 		return (
-        <div className="album text-muted">
-          <div className="container">
+        <div className="album  text-muted">
+          <div className="container ">
             <div className="row">
-            <h1 className="pull-left"> Future Projects </h1>
+            <h1 className="pull-left fp "> Future Projects </h1>
             <div class="col-sm-10">
 
             Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.

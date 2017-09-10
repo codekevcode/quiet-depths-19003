@@ -14,6 +14,7 @@ html {
 
 body {
   margin: 0;
+  background-color: #f0f0a8;
 }
 
 article,
@@ -9344,12 +9345,11 @@ body {
 .jumbotron .container {
   max-width: 40rem;
 }
-
 .album {
   min-height: 50rem; /* Can be removed; just added for demo purposes */
   padding-top: 3rem;
   padding-bottom: 3rem;
-  background-color: #f7f7f7;
+  background-color: #f06048;
 }
 
 .card {
