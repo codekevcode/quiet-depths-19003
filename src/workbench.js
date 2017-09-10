@@ -1,5 +1,6 @@
 
 import React from 'react';
+import owlbot0 from './img/owlbot0.jpg'
 
 
 
@@ -60,7 +61,7 @@ export class WorkBench extends React.Component {
 
             </div>
               <div className="card">
-                <img src= {"http://lorempixel.com/output/nightlife-q-c-480-480-4.jpg"}  alt="Card image cap" />
+                  <img className="img-fluid" src={owlbot0}  alt="logo" />
 
               </div>
               <div className="card">
