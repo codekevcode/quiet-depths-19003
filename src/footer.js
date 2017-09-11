@@ -8,8 +8,9 @@ export class Footer extends React.Component {
     return(
       <footer>
         <div className="container">
-          <div className="row footer_row " id= "target1">
-            <div className="col-lg-6 col-xs-8 col-xs-12 footer__row-description">
+          <div className="footer_row" id= "target1">
+          <div className="col-lg-12  footer__row-description">
+            <div className="col">
               <p className="footer__paragraph footer__paragraph-bold">
                 <strong>BOTNAME IS A NEW KIND OF BOT</strong>
               </p>
@@ -17,7 +18,7 @@ export class Footer extends React.Component {
                 "Our bot focuses on new ideas to expand new horizons to bring prestige."
               </p>
             </div> {/* /.col-lg-6 col-xs-8 col-xs-12 footer__row-description */}
-            <div className="col-lg-4 col-lg-offset-2 col-xs-12">
+            <div className="col row justify-content-end">
               <p className="footer__paragraph">
                 <strong>CONTACT US</strong>
               </p>
@@ -51,7 +52,9 @@ export class Footer extends React.Component {
                   </a>
                 </li>
               </ul>
-            </div>  {/*}/.col-lg-4 col-lg-offset-2 col-xs-12 */}
+            </div>
+            </div>  {/*}/.col-lg-4 col-lg-offset-2 col-xs-12  */}
+            <div className="col-lg-12">
             <div className="footer__row row-flat">
               <div className="row">
                 <div className="col-lg-2 col-xs-6">
@@ -93,14 +96,16 @@ export class Footer extends React.Component {
                     Anywhere, USA
                   </p>
                 </div> {/* ./col-lg-4 col-xs-12 */}
+                <div className="githubLink">
+                     <p> See something you would like to change or add? Do it here at our <a href="https://github.com/codekevcode/quiet-depths-19003" > <span style={{textDecoration: 'underline'}}> github repository. </span> </a>
+                    </p>
+                  </div> {/* ./col-lg-4 col-xs-12 */}
+                  </div>
               </div> {/* /.row */}
             </div> {/* /.footer___row row-flat */}
             </div> {/* /.row footer__row */}
-        </div> {/* /.container */}
-        <div className="githubLink">
-          <p> See something you would like to change or add? Do it here at our <a href="https://github.com/codekevcode/quiet-depths-19003" > <span style={{textDecoration: 'underline'}}> github repository. </span> </a>
-          </p>
-          </div>
+            </div>
+         {/* /.container */}
       </footer>
     )}
 } export default Footer
